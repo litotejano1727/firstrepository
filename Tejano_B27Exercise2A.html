@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Online Library</title>
+  </head>
+  <style>
+    /* body {
+        background-image: url("library.jpg");
+        background-repeat: no-repeat;
+        background-size: cover; */
+    /* } */
+    /* body {
+      background-image: linear-gradient(
+        to right,
+        rgba(255, 0, 0, 0),
+        rgba(255, 0, 0, 1)
+      );
+    } */
+    button {
+      border-radius: 15px;
+    }
+    .tableBorders {
+      border: 2px solid black;
+      height: auto;
+      width: 100%;
+      position: relative;
+      top: 6px;
+      background-color: #f2f2f2;
+    }
+    /* .input{
+        position:relative;
+        left:72%; 
+        top:13px;
+    } */
+    h1 {
+      text-align: center;
+    }
+    * {
+      font-family: Arial, Helvetica, sans-serif;
+      box-sizing: border-box;
+    }
+    .topnav {
+      background-color: #333;
+      overflow: hidden;
+    }
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    form.example input[type="text"] {
+      padding: 10px;
+      font-size: 17px;
+      border: 1px solid grey;
+      float: left;
+      width: 80%;
+      background: #f1f1f1;
+    }
+
+    form.example button {
+      float: left;
+      width: 20%;
+      padding: 10px;
+      background: #2196f3;
+      color: white;
+      font-size: 17px;
+      border: 1px solid grey;
+      border-left: none;
+      cursor: pointer;
+    }
+
+    form.example button:hover {
+      background: #0b7dda;
+    }
+
+    form.example::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    img {
+        height: 15px;
+        width: 15px;
+        vertical-align: auto;
+    }
+    .input {
+        border-radius: 12px;
+    }
+  </style>
+  <body>
+    <div class="topnav">
+      <a class="active" href="#home">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+    </div>
+    <h1>Online Library</h1>
+    <form
+      class="example"
+      style="margin: auto; max-width: 300px"
+    >
+      <input class="input" type="text" placeholder="Search.." name="search2" />
+      <button type="submit"><img src="search.png"><fa fa-search"></i></button>
+    </form>
+    <table border="2" class="tableBorders">
+      <tr>
+        <th>Book Title  <select class="input"><option>Filter</option></select></th>
+        <th>Author      <select class="input"><option>Filter</option></select></th>
+        <th>Year Published      <select class="input"><option>Filter</option></select></th>
+        <th>Actions     <select class="input"><option>Filter</option></select></th>
+      </tr>
+
+      <tr>
+        <th>A Tale of Two Cities</th>
+        <th>Charles Dickens</th>
+        <th>1859</th>
+        <th>
+          <button>Add to Cart</button> <button>Add to Wishlist</button>
+          <button><a href="Tejano_b27Exercise2b.html">Checkout</a></button>
+        </th>
+      </tr>
+
+      <tr>
+        <th>The Lord of The Rings</th>
+        <th>J.R.R Tolkien</th>
+        <th>1954</th>
+        <th>
+          <button>Add to Cart</button> <button>Add to Wishlist</button>
+          <button><a href="Tejano_b27Exercise2b.html">Checkout</a></button>
+        </th>
+      </tr>
+
+      <tr>
+        <th>The Little Prince</th>
+        <th>Antoine de Saint-Exupéry</th>
+        <th>1943</th>
+        <th>
+          <button>Add to Cart</button> <button>Add to Wishlist</button>
+          <button><a href="Tejano_b27Exercise2b.html">Checkout</a></button>
+        </th>
+      </tr>
+
+      <tr>
+        <th>And Then There Were None</th>
+        <th>Agatha Christie</th>
+        <th>1939</th>
+        <th>
+          <button>Add to Cart</button> <button>Add to Wishlist</button>
+          <button><a href="Tejano_b27Exercise2b.html">Checkout</a></button>
+        </th>
+      </tr>
+
+      <tr>
+        <th>The Hobbit</th>
+        <th>J.R.R. Tolkien</th>
+        <th>1937</th>
+        <th>
+          <button>Add to Cart</button> <button>Add to Wishlist</button>
+          <button><a href="Tejano_b27Exercise2b.html">Checkout</a></button>
+        </th>
+      </tr>
+
+      <tr>
+        <th>She: A History of Adventure</th>
+        <th>H.Rider Haggard</th>
+        <th>1887</th>
+        <th>
+          <button>Add to Cart</button> <button>Add to Wishlist</button>
+          <button><a href="Tejano_b27Exercise2b.html">Checkout</a></button>
+        </th>
+      </tr>
+
+      <tr>
+        <th>The Da Vinci Code</th>
+        <th>Dan Brown</th>
+        <th>2003</th>
+        <th>
+          <button>Add to Cart</button> <button>Add to Wishlist</button>
+          <button><a href="Tejano_b27Exercise2b.html">Checkout</a></button>
+        </th>
+      </tr>
+
+      <tr>
+        <th>The Alchemist</th>
+        <th>Paulo Coelho</th>
+        <th>1988</th>
+        <th>
+          <button>Add to Cart</button> <button>Add to Wishlist</button>
+          <button><a href="Tejano_b27Exercise2b.html">Checkout</a></button>
+        </th>
+      </tr>
+
+      <tr>
+        <th>The Catcher in the Rye</th>
+        <th>J.D. Salinger</th>
+        <th>1951</th>
+        <th>
+          <button>Add to Cart</button> <button>Add to Wishlist</button>
+          <button><a href="Tejano_b27Exercise2b.html">Checkout</a></button>
+        </th>
+      </tr>
+
+      <tr>
+        <th>Harry Potter and the Goblet of Fire</th>
+        <th>J. K. Rowling</th>
+        <th>2000</th>
+        <th>
+          <button>Add to Cart</button> <button>Add to Wishlist</button>
+          <button><a href="Tejano_b27Exercise2b.html">Checkout</a></button>
+        </th>
+      </tr>
+    </table>
+  </body>
+</html>
